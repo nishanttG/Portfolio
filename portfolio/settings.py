@@ -49,6 +49,7 @@ INSTALLED_APPS = [
 ]
 
 MIDDLEWARE = [
+    'whitenoise.middleware.WhiteNoiseMiddleware', 
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -126,8 +127,10 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
+# STATIC FILES
 STATIC_URL = '/static/'
-MEDIA_URL = '/images/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')  # collectstatic copies here
 
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')  # where collectstatic will copy everything
+# MEDIA FILES
+MEDIA_URL = '/media/'      # usually /media/, not /images/
 MEDIA_ROOT = os.path.join(BASE_DIR, 'images')
