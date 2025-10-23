@@ -27,10 +27,12 @@ SECRET_KEY = 'nv)=_h7=(#+dn7hk2#n17v406lzs#2-)l8kepd#y(u2g)g5_%-'
 DEBUG = False
 
 ALLOWED_HOSTS = [
-    "portfolio-7qs4.onrender.com",  # Render app URL
+    "portfolio-7qs4.onrender.com",  # Render default URL
     "ghimirenishant.com.np",        # your custom domain
-    "www.ghimirenishant.com.np",    # optional, if using www
+    "www.ghimirenishant.com.np",    # if using www
+    "*"                             # optional, allows all hosts (for testing only)
 ]
+
 
 
 # Application definition
