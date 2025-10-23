@@ -21,8 +21,6 @@ ALLOWED_HOSTS = [
     "www.ghimirenishant.com.np",    # if using www
     "*"                             # optional, allows all hosts (for testing only)
 ]
-
-
 # Application definition
 
 INSTALLED_APPS = [
@@ -120,4 +118,4 @@ MEDIA_URL='/images/'
 STATICFILES_DIRS=[
   os.path.join(BASE_DIR, 'static')  
 ]
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')  # collectstatic copies here
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')  # collectstatic will copy here
