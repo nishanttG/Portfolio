@@ -134,3 +134,4 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')  # collectstatic copies here
 # MEDIA FILES
 MEDIA_URL = '/media/'      # usually /media/, not /images/
 MEDIA_ROOT = os.path.join(BASE_DIR, 'images')
+STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]  # optional global static folder
