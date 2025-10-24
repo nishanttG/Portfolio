@@ -1,6 +1,5 @@
 {% load static %}
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -8,10 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>portf </title>
     <link rel="icon" type="image/x-icon" href="./Images/favicon.jpeg">
-    <link rel="stylesheet" href="{%static 'css/style.css'%}">
     
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="{%static 'css/style.css'%}">
 </head>
 <body>`
     
@@ -38,8 +37,8 @@
         <div class="home-left flex items-center">
             <div class="home-content">
                 <h6 class="poppinss">Hi, I'm</h6>
-                <h1 class="t-white">Avanish Patidar</h1>
-                <h4 class="poppinss">Software Engineer</h4>
+                <h1 class="t-white">Nishant Ghimire</h1>
+                <h4 class="poppinss">Aspiring Data Scientist</h4>
                 <a href="{% static 'pdf/django.pdf' %}"  target="_blank">
                     <button class="btn poppins">Resume</button></a>
                     
@@ -49,8 +48,7 @@
         </div>
         <div class="home-right flex s-center items-center">
             <div class="circle flex s-center items-center" id="mainImage">
-               
-                <img src="{% static 'images/mypic.png'%}" alt="">
+               <img src="{% static 'images/mypic.png'%}" alt="no-image">
             </div>
 
         </div>
@@ -67,8 +65,8 @@
 
             <div class="about-right flex">
                 <div class="about-content">
-                    <h1 class="t-white m-b-1 poppins">Avanish Patidar</h1>
-                    <p class="t-white poppins">My name is Avanish Patidar.I’m a B.tech student CDGI College in Computer Science & Engineering.
+                    <h1 class="t-white m-b-1 poppins">Nishant Ghimire</h1>
+                    <p class="t-white poppins">My name is Nishant Ghimire.I’m a computer engineering student from Kathmandu University.
                         
                         
                         I am fresher, I’m passionate about creating quality products that meet all of the customer’s needs, and I love learning new techniques and technologies that allow me to make that happen.While I generally enjoy all of my job, the part I find most draining is estimating projects for customers. I don’t mind doing it, but I enjoy actually creating the software much more.</p>
@@ -89,17 +87,17 @@
 
         <div class="skills-right flex items-center">
             <div class="skillss-container">
-                <div class="java bar p-relative"><span class="bar-content left t-white"> Core Java</span><span
+                <div class="java bar p-relative"><span class="bar-content left t-white">Machine Learning / scikit-learn</span><span
                         class="bar-content right-skills t-white">90%</span></div>
-                <div class="html bar p-relative"><span class="bar-content left t-white">HTML</span><span
+                <div class="html bar p-relative"><span class="bar-content left t-white">Python Numpy Pandas Matplotlib Seaborn</span><span
                         class="bar-content right-skills t-white">90%</span></div>
-                <div class="css bar p-relative"><span class="bar-content left t-white">CSS</span><span
+                <div class="css bar p-relative"><span class="bar-content left t-white">Django Flask</span><span
                         class="bar-content right-skills t-white">80%</span></div>
-                <div class="js bar p-relative"><span class="bar-content left t-white">JavaScript</span><span
+                <div class="js bar p-relative"><span class="bar-content left t-white">MySQL</span><span
                         class="bar-content right-skills t-white">60%</span></div>
-                <div class="python bar p-relative"><span class="bar-content left t-white">Python</span><span
+                <div class="python bar p-relative"><span class="bar-content left t-white">Deep Learning / Keras-Tensorflow</span><span
                         class="bar-content right-skills t-white">50%</span></div>
-                <div class="mysql bar p-relative"><span class="bar-content left t-white">MySQL</span><span
+                <div class="mysql bar p-relative"><span class="bar-content left t-white">HTML-CSS-Bootstrap</span><span
                         class="bar-content right-skills t-white">40%</span></div>        
             </div>
         </div>
@@ -114,8 +112,8 @@
         <div class="projects-container flex s-center">
             <div class="projects-item flex f-col s-center items-center">
                
-                <h1 class="t-white poppins">Amazone-clone</h1>
-                <p class="t-white poppins"> This is a functional shopping app intended to be a clone of Amazon and some of its features. This is clone is mixed with my design style and features that I thought would make it look better. This was created with React and incorporates Firebase Cloud firestore , firebase authentication, and accepts payments through Stripe.</p>
+                <h1 class="t-white poppins">Loan Approval Prediction System</h1>
+                <p class="t-white poppins">  Conducted EDA to uncover key patterns and insights in a 615-record loan dataset. Applied advanced preprocessing (missing value handling, scaling, encoding) to ensure data quality.  Developed a logistic regression model achieving 78% accuracy, validated using a confusion matrix.</p>
                 <div class="buttons flex s-around">
                     <a href=""
                         target="_blanks" class="btn mx-1 m-top">GitHub</a>
@@ -125,8 +123,8 @@
             </div>
             <div class="projects-item flex f-col s-center items-center">
                
-                <h1 class="t-white poppins">My Portfolio</h1>
-                <p class="t-white poppins">This is My portfolio website which is created with HTML,CSS and Javascript which describe my skill and knowledge.My portfolio website showcases my work in a sleek and minimalist design, allowing the focus to be on the content itself. The layout is uncluttered, making it easy for visitors to navigate and explore my projects.</p>
+                <h1 class="t-white poppins">Kavre Guide</h1>
+                <p class="t-white poppins"> Designed user-friendly registration forms for guides to submit bios, set locations, and update availability.  Implemented dynamic guide listings with search and filter options by location and date. Leveraged Django ORM for efficient data management and retrieval.</p>
                 <div class="buttons flex s-around">
                     <a href="" target="_blanks"
                         class="btn mx-1 m-top">GitHub</a>
@@ -173,7 +171,7 @@
 
     <!-- Footer Section -->
     <footer id="footer">
-        <ul class="flex s-center w-80 m-auto my-2 res">
+        <ul class="flex s-center w-80 m-auto my-2 res ">
             <li><a href="#home" class="poppinss">Home</a></li>
             <li><a href="#about" class="poppinss">About</a></li>
             <li><a href="#skills" class="poppinss">Skills</a></li>
@@ -195,7 +193,23 @@
         <p class="t-center my-2 poppins">&copy; All Rights Reserved - <span class="cpy-white poppins">Error By Night 
                 </span></p>
 
-    </footer>
-     
+            </footer>
+<script>
+  const navList = document.querySelector("#navbar ul");
+  const toggleBtn = document.createElement("button");
+  toggleBtn.innerHTML = "☰";
+  toggleBtn.style.background = "none";
+  toggleBtn.style.border = "none";
+  toggleBtn.style.color = "white";
+  toggleBtn.style.fontSize = "1.5rem";
+  toggleBtn.style.cursor = "pointer";
+
+  document.querySelector("#navbar").prepend(toggleBtn);
+
+  toggleBtn.addEventListener("click", () => {
+    navList.classList.toggle("show");
+  });
+</script>
+
 </body> 
 </html>
